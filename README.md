@@ -24,3 +24,14 @@ principais comandos do git
 
 ``` gir pull origin <nome da branch> (main ou master)```                      *puxar as informações do remoto o repositório local*
 
+``` git add .```                                 *adiciona todas as alterações realizadas*
+
+``` git add <nome do arquivo>```                 *adiciona um arquivo especifico*
+
+```git commit -m "nome do commit"```             *salvar o nome da versão do projeto referente as alterações realizadas* 
+
+``` git push -u origin (master ou main)```        *verificar de qual origen está puxando*
+
+``` git push --set-upstream origin <nome da branch>```        *configurar qual origem vamos usar*
+
+``` git push```                                    *enviar todas as alterações feitas no local para o remoto*
